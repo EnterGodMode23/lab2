@@ -1,0 +1,10 @@
+digraph G {label=fun_3;
+"1" -> "2"[label="IF GREATER(a, 3)"];
+"2" -> "3"[label=""];
+"3" -> end;
+"1" -> "4"[label="else"];
+"4" -> "3"[label=""];
+
+start -> "1";
+start [shape=Mdiamond]; end [shape=Msquare];
+}

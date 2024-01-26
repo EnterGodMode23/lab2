@@ -1,0 +1,17 @@
+int fun_4 (int a) {
+    int b;
+    b = 5;
+    if (a == 4) {
+        b = 10;
+    }
+    if (a < 4) {
+        b = 0;
+    } else {
+        b = 4;
+    }
+    while (b < 10) {
+        a = b * a;
+        b = b - 1;
+    }
+    return a;
+}

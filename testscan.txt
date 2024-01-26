@@ -1,0 +1,25 @@
+int fun_1 (int a) {
+    int b;
+    b = 4;
+    if (a == 10){
+        while (a > 3) {
+            b = a*10-b;
+            a = a-1;
+        }
+    }
+    return b;
+}
+
+int fun_2 (int a) {
+   int b;
+   b = a + 10 * 5;
+   return b;
+}
+
+bool fun_3 (int a) {
+    if (a > 3) {
+        a = 11;
+    } else {
+        a = 2;
+    }
+}

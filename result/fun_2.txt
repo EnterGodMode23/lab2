@@ -1,0 +1,6 @@
+digraph G {label=fun_2;
+"1" -> end;
+
+start -> "1";
+start [shape=Mdiamond]; end [shape=Msquare];
+}
